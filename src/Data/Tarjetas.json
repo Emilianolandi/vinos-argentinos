@@ -56,23 +56,26 @@
 
     },
     {
-        "titulo": "luigi ",
-        "Descripcion": "vaca",
-        "imagen":"img/publicocd.jpg",
+        "titulo": "Alma Mora ",
+       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+        
+        "imagen":"img/almamora.jpg",
         "precio":  "$2000"
 
     },  
     {
-        "titulo": "luigi ",
-        "Descripcion": "vaca",
-        "imagen":"img/publicocd.jpg",
+        "titulo": "Escorihuela Gascón ",
+        "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+
+        "imagen":"img/escoruela.jpg",
         "precio":  "$2000"
 
     }, 
      {
-        "titulo": "luigi ",
-        "Descripcion": "vaca",
-        "imagen":"img/publicocd.jpg",
+        "titulo": "Amalaya ",
+        "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+        
+        "imagen":"img/ama.jpg",
         "precio":  "$2000"
 
     }

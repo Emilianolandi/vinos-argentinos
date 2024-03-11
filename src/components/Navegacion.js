@@ -14,7 +14,7 @@ export default function Botonera() {
           </Link>
         </li>
         <li>
-          <Link to="/Discografia" className={`enlace ${location.pathname === '/Discografia' ? 'activo' : ''}`}>
+          <Link to="/Productos" className={`enlace ${location.pathname === '/Productos' ? 'activo' : ''}`}>
             Productos
           </Link>
         </li>

@@ -1,15 +1,15 @@
 import React from "react";
-import Footer from "../components/Footer";
+
 
 import CardWrapper from "../components/CardWrapper"
 
 
-export default function Discografia(){
+export default function Productos(){
     return(
       <>
         
         <CardWrapper
-        titulo = {"Discografia"}
+        titulo = {"Productos"}
         />
     
         </>

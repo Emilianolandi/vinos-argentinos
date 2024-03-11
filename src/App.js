@@ -2,7 +2,7 @@
 import './App.css';
 
 import Inicio from './paginas/Inicio';
-import Discografia from './paginas/Discografia';
+import Productos from './paginas/Productos';
 
 import Contacto from './paginas/Contacto';
 import Layout from './paginas/Layout';
@@ -19,7 +19,8 @@ function App() {
        
           <Route path="/" element={<Layout/>}>
           <Route index element={<Inicio/>}/>
-          <Route path="discografia" element={<Discografia/>}/>
+          <Route path="Productos" element={<Productos />} />
+
           
           <Route path="contacto" element={<Contacto/>}/>
         
