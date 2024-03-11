@@ -1,8 +1,10 @@
 /* En tu App.css */
-body, html index{
+body, html :root{
     height: 100%;
     margin: 0;
     padding: 0;
+    background-image: url('/public/img/Fondo-4.jpg');
+    background-size: cover;
   }
   
   .App {

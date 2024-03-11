@@ -39,7 +39,7 @@ const Formulario = () => {
       // Si hay errores, actualizar el estado de errores y no enviar el formulario
       setErrores(nuevosErrores);
     } else {
-      // Lógica de envío de formulario (puedes implementar esto según tus necesidades)
+      
       console.log('Formulario enviado:', campos);
       // Limpieza de campos después del envío
       setCampos({

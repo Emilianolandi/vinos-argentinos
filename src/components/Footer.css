@@ -5,7 +5,7 @@
 /* CSS para el pie de página */
 .pie-de-pagina {
     border-top: 10px solid rgb(148, 136, 136);
-    background-color: #7a695d;
+    background-color: #6a7d9084;
     text-decoration: double;
     display: flex;
     justify-content: space-around;

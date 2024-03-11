@@ -14,6 +14,9 @@ export default function Inicio (){
   
        <Presentacion />
        <Vinos/>
+       <br></br>
+       <br></br>
+       
        </>
     )
 }

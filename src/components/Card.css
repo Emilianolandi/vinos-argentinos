@@ -1,4 +1,9 @@
 /* CardWrapper.css */
+#root {
+ 
+ background-image: url('/public/img/Fondo-4.jpg');
+ background-size: cover;
+}
 
 .grilla {
     display: grid;
@@ -41,7 +46,7 @@
     }
   }
   
-  /* Estilos adicionales para hacerlo responsive */
+
   @media screen and (max-width: 768px) {
     .grilla {
       grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));

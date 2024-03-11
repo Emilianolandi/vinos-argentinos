@@ -35,8 +35,8 @@
   border: 2px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #3d3b3b; /* Fondo oscuro */
-  color: #fff; /* Texto blanco */
+  background-color: #3d3b3b; 
+  color: #fff;
   transition: transform 0.3s, background-color 0.3s;
 }
 
