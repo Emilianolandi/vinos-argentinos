@@ -11,23 +11,46 @@ const Formulario = () => {
     mensaje: ''
   });
 
+  const [errores, setErrores] = useState({
+    nombre: '',
+    apellido: '',
+    telefono: '',
+    email: '',
+    mensaje: ''
+  });
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setCampos({ ...campos, [name]: value });
+    // Limpiar el mensaje de error cuando se actualiza el campo
+    setErrores({ ...errores, [name]: '' });
   };
 
   const handleSubmit = () => {
-    // Lógica de envío de formulario (puedes implementar esto según tus necesidades)
-    console.log('Formulario enviado:', campos);
-    // Limpieza de campos después del envío
-    setCampos({
-      nombre: '',
-      apellido: '',
-      telefono: '',
-      email: '',
-      asunto: 'soporte',
-      mensaje: ''
+    // Validar campos obligatorios antes de enviar el formulario
+    const nuevosErrores = {};
+    Object.keys(campos).forEach((campo) => {
+      if (!campos[campo]) {
+        nuevosErrores[campo] = 'Este campo es obligatorio';
+      }
     });
+
+    if (Object.keys(nuevosErrores).length > 0) {
+      // Si hay errores, actualizar el estado de errores y no enviar el formulario
+      setErrores(nuevosErrores);
+    } else {
+      // Lógica de envío de formulario (puedes implementar esto según tus necesidades)
+      console.log('Formulario enviado:', campos);
+      // Limpieza de campos después del envío
+      setCampos({
+        nombre: '',
+        apellido: '',
+        telefono: '',
+        email: '',
+        asunto: 'soporte',
+        mensaje: ''
+      });
+    }
   };
 
   return (
@@ -46,6 +69,7 @@ const Formulario = () => {
               value={campos.nombre}
               onChange={handleInputChange}
             />
+            <p className="error-message">{errores.nombre}</p>
           </div>
 
           <div>
@@ -58,6 +82,7 @@ const Formulario = () => {
               value={campos.apellido}
               onChange={handleInputChange}
             />
+            <p className="error-message">{errores.apellido}</p>
           </div>
 
           <div>
@@ -70,6 +95,7 @@ const Formulario = () => {
               value={campos.telefono}
               onChange={handleInputChange}
             />
+            <p className="error-message">{errores.telefono}</p>
           </div>
 
           <div>
@@ -82,6 +108,7 @@ const Formulario = () => {
               value={campos.email}
               onChange={handleInputChange}
             />
+            <p className="error-message">{errores.email}</p>
           </div>
 
           <div>
@@ -107,6 +134,7 @@ const Formulario = () => {
               value={campos.mensaje}
               onChange={handleInputChange}
             ></textarea>
+            <p className="error-message">{errores.mensaje}</p>
           </div>
 
           <button type="button" onClick={handleSubmit}>

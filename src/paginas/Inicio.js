@@ -1,7 +1,8 @@
 import React from "react";
 
-import DiscoLuz from "../components/DiscoLuz";
 
+import Vinos from "../components/vinos_descripcion";
+import Presentacion from "../components/presentacion";
 
 
 
@@ -11,8 +12,8 @@ export default function Inicio (){
     return(
        <>
   
-       <DiscoLuz />
-       
+       <Presentacion />
+       <Vinos/>
        </>
     )
 }
