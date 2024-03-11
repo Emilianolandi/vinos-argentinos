@@ -1,0 +1,56 @@
+/* CardWrapper.css */
+
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Cambiado a 3 columnas por fila */
+  gap: 50px;
+  padding: 50px;
+}
+
+.Card {
+  width: 100%;
+  max-width: 300px; /* o el ancho máximo deseado */
+  margin: 20px auto; /* Centra la card y agrega espacio entre ellas */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+}
+
+.Card img {
+  width: 100%;
+  height: auto; /* Asegura que la imagen se adapte al ancho y conserve la proporción */
+  border-radius: 8px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.Card h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333; /* o el color deseado */
+  animation: moveLetters 2s infinite alternate; /* Animación de letras */
+}
+
+/* Animación de letras */
+@keyframes moveLetters {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Estilos adicionales para hacerlo responsive */
+@media screen and (max-width: 768px) {
+  .grilla {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+}

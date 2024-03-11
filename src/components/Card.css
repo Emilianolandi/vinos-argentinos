@@ -1,0 +1,54 @@
+/* CardWrapper.css */
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px; /* Espaciado entre las tarjetas */
+  }
+  
+  .Card {
+    width: 100%;
+    max-width: 300px; /* Ancho máximo deseado para cada tarjeta */
+    margin: 0 auto; /* Centra las tarjetas */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .Card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    object-fit: cover;
+  }
+  
+  .Card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+    animation: moveLetters 2s infinite alternate;
+  }
+  
+  @keyframes moveLetters {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  /* Estilos adicionales para hacerlo responsive */
+  @media screen and (max-width: 768px) {
+    .grilla {
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+  
+    .Card {
+      max-width: 100%;
+    }
+  }
+  

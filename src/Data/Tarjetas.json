@@ -1,0 +1,80 @@
+
+
+[
+    {
+        "titulo": "Angelica ",
+        "imagen": "img/angelica.jpg",
+        "precio":  "$6000",
+        "Descripcion":"Línea Alamos Tipo de vino TintoVarietalMalbec"
+        
+    }, 
+    {
+        "titulo": "Catena ",
+        "imagen":"img/catena.jpg",
+       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+        "precio":  "$14000"
+
+    }, 
+    {
+        "titulo": "El enemigo",
+        "imagen":"img/elenemigo.jpg",
+       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+
+        "precio":  "$52000"
+
+    }, 
+    {
+        "titulo": "Liugi Bosca",
+        "imagen": "img/luigi.jpg",
+       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+
+        "precio":  "$30"
+
+    },
+    {
+        "titulo": "Mosquita Muerta",
+        "imagen": "img/mosquitamuerta.jpg",
+       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+
+        "precio":  "$300"
+
+    },
+    {
+        "titulo": "Helios",
+        "imagen": "img/helios.jpg",
+       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+
+        "precio":  "$357415"
+
+    },
+    {
+        "titulo": "Rutini",
+        "imagen": "img/rutini.jpg",
+       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+
+        "precio":  "$8000"
+
+    },
+    {
+        "titulo": "luigi ",
+        "Descripcion": "vaca",
+        "imagen":"img/publicocd.jpg",
+        "precio":  "$2000"
+
+    },  
+    {
+        "titulo": "luigi ",
+        "Descripcion": "vaca",
+        "imagen":"img/publicocd.jpg",
+        "precio":  "$2000"
+
+    }, 
+     {
+        "titulo": "luigi ",
+        "Descripcion": "vaca",
+        "imagen":"img/publicocd.jpg",
+        "precio":  "$2000"
+
+    }
+   
+]

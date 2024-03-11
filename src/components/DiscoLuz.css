@@ -1,0 +1,71 @@
+.caja{
+  max-width: 1200px;
+}
+
+.Enlace{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+ 
+}
+.Enlace img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+    border-radius: 40px;
+    padding: 30px;
+    max-width: 500px;
+    transform:scale(30px,30px);
+}  
+
+
+
+
+
+.Resumen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+  border: 8px  solid black;
+border-radius: 10px;
+  text-align: center;
+ max-width: 1150px;
+  
+  margin-top: 30px;
+
+  color: rgb(72, 69, 67);
+
+
+
+  animation-name: colores;
+  animation-duration:30s ;
+  animation-name: colores;
+  animation-duration: 80s;
+  animation-iteration-count: 3c2;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes colores{
+  33%{
+    color:palevioletred;
+  }
+  10%{
+    color:cadetblue;
+  }
+  45%{
+    color: yellowgreen;
+  }
+  75%{
+    color:red;
+  }
+  80%{
+    color:rgb(168, 92, 41);
+  }
+}
+
+
