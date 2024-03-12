@@ -1,83 +1,72 @@
-
-
 [
     {
-        "titulo": "Angelica ",
+        "titulo": "Angelica",
         "imagen": "img/angelica.jpg",
-        "precio":  "$6000",
-        "Descripcion":"Línea Alamos Tipo de vino TintoVarietalMalbec"
-        
-    }, 
+        "precio": "$6000",
+        "Descripcion": "Línea Alamos Tipo de vino TintoVarietalMalbec",
+        "destacado": false
+    },
     {
-        "titulo": "Catena ",
-        "imagen":"img/catena.jpg",
-       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
-        "precio":  "$14000"
-
-    }, 
+        "titulo": "Catena",
+        "imagen": "img/catena.jpg",
+        "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+        "precio": "$14000",
+        "destacado": true
+    },
     {
         "titulo": "El enemigo",
-        "imagen":"img/elenemigo.jpg",
-       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
-
-        "precio":  "$52000"
-
-    }, 
+        "imagen": "img/elenemigo.jpg",
+        "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+        "precio": "$52000",
+        "destacado": false
+    },
     {
         "titulo": "Liugi Bosca",
         "imagen": "img/luigi.jpg",
-       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
-
-        "precio":  "$30"
-
+        "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+        "precio": "$30",
+        "destacado": true
     },
     {
         "titulo": "Mosquita Muerta",
         "imagen": "img/mosquitamuerta.jpg",
-       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
-
-        "precio":  "$300"
-
+        "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+        "precio": "$300",
+        "destacado": false
     },
     {
         "titulo": "Helios",
         "imagen": "img/helios.jpg",
-       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
-
-        "precio":  "$357415"
-
+        "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+        "precio": "$357415",
+        "destacado": true
     },
     {
         "titulo": "Rutini",
         "imagen": "img/rutini.jpg",
-       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
-
-        "precio":  "$8000"
-
+        "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+        "precio": "$8000",
+        "destacado": false
     },
     {
-        "titulo": "Alma Mora ",
-       "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
-        
-        "imagen":"img/almamora.jpg",
-        "precio":  "$2000"
-
-    },  
+        "titulo": "Alma Mora",
+        "imagen": "img/almamora.jpg",
+        "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
+        "precio": "$2000",
+        "destacado": true
+    },
     {
-        "titulo": "Escorihuela Gascón ",
+        "titulo": "Escorihuela Gascón",
+        "imagen": "img/escoruela.jpg",
         "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
-
-        "imagen":"img/escoruela.jpg",
-        "precio":  "$2000"
-
-    }, 
-     {
-        "titulo": "Amalaya ",
+        "precio": "$2000",
+        "destacado": false
+    },
+    {
+        "titulo": "Amalaya",
+        "imagen": "img/ama.jpg",
         "Descripcion": "Bodega Catena Zapata líder en vinos de alta calidad Variedad Malbec cepa emblemática de Mendoza",
-        
-        "imagen":"img/ama.jpg",
-        "precio":  "$2000"
-
+        "precio": "$2000",
+        "destacado": true
     }
-   
 ]

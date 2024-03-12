@@ -36,7 +36,7 @@ const Formulario = () => {
     });
 
     if (Object.keys(nuevosErrores).length > 0) {
-      // Si hay errores, actualizar el estado de errores y no enviar el formulario
+      //  actualizar el estado de errores y no enviar el formulario
       setErrores(nuevosErrores);
     } else {
       

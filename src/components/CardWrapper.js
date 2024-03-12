@@ -1,26 +1,31 @@
+// CardWrapper.js
+
+import React from 'react';
 import './CardWrapper.css';
 import Tarjetas from '../Data/Tarjetas.json';
-import Card from '../components/Card'
+import { CardDestacado, CardCompleto } from '../components/Card';
 
-
-export default function CardWrapper ({Titulo}) {
+export default function CardWrapper() {
     console.log(Tarjetas);
+
     return (
         <>
-        <h1 className='Titulo-producto'>NUESTROS PRODUCTOS</h1>
+            <h1 className='Titulo-producto'>NUESTROS PRODUCTOS</h1>
             <div className="grilla">
-            
-
-                {Tarjetas.map((Tarjeta, index) => ( 
-                    <Card
-                        key={index}
-                        Card= {Tarjeta}
-                        
-                    />
-                    ))}
-              
+                {Tarjetas.map((Tarjeta, index) => (
+                    Tarjeta.destacado ? (
+                        <CardDestacado
+                            key={index}
+                            Card={Tarjeta}
+                        />
+                    ) : (
+                        <CardCompleto
+                            key={index}
+                            Card={Tarjeta}
+                        />
+                    )
+                ))}
             </div>
-
         </>
-    )
+    );
 }
