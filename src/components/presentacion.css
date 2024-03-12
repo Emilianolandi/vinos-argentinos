@@ -43,15 +43,35 @@
 .Malbec:hover,
 .Cabernet:hover {
   transform: scale(1.05); /* Hace escala al pasar el mouse */
-  background-color: #2a2a2a; /* Cambia la gama de colores al pasar el mouse */
+  background-color: #0b34eb; /* Cambia la gama de colores al pasar el mouse */
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
 p {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 24px;
+  line-height: 2.5;
+}
+.title-prin {
+  color: #3498db; /* Cambia este valor al color que desees para el texto */
+  text-align: center;
+  animation: moveAndChangeColor 3s infinite alternate; /* Configuración de la animación */
+}
+
+@keyframes moveAndChangeColor {
+  0% {
+    transform: translateY(0);
+    color: #3498db;
+  }
+  50% {
+    transform: translateY(-10px);
+    color: #e74c3c; /* Cambia este valor al color que desees para la animación */
+  }
+  100% {
+    transform: translateY(0);
+    color: #3498db;
+  }
 }

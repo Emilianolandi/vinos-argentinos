@@ -54,3 +54,23 @@
     grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   }
 }
+.Titulo-producto {
+  color: #333; /* Color negro */
+  text-align: center;
+  animation: moveAndChangeColorProducto 3s infinite alternate; /* Nueva animación para 'Titulo-producto' */
+}
+
+@keyframes moveAndChangeColorProducto {
+  0% {
+    transform: translateY(0);
+    color: #333; /* Color negro */
+  }
+  50% {
+    transform: translateY(-10px);
+    color: #666; /* Color gris medio */
+  }
+  100% {
+    transform: translateY(0);
+    color: #3498db; /* Color azul */
+  }
+}

@@ -7,6 +7,7 @@ export default function CardWrapper ({Titulo}) {
     console.log(Tarjetas);
     return (
         <>
+        <h1 className='Titulo-producto'>NUESTROS PRODUCTOS</h1>
             <div className="grilla">
             
 

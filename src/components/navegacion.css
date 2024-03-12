@@ -10,6 +10,7 @@
 }
 
 .botonera {
+  background-image: url('/public/img/navegacion.jpg');
   width: 100%;
   display: flex;
   justify-content: center;
@@ -27,8 +28,8 @@
 }
 
 .enlace {
-  padding: 10px;
-  margin: 10px;
+  padding: 20px;
+  margin: 20px;
   border: 3px solid var(--Rosa);
   border-radius: 15px;
   text-decoration: none;
@@ -45,17 +46,7 @@
   font-weight: bold;
 }
 
-@keyframes cambioTextura {
-  0% {
-      background-image: url('/public/img/header-1.jpg');
-  }
-  50% {
-      background-image: url('/public/img/header-2.jpg');
-  }
-  100% {
-      background-image: url('/public/img/header-3.jpg');
-  }
-}
+
 
 @media screen and (max-width: 800px) {
   .botonera {

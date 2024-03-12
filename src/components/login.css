@@ -1,0 +1,51 @@
+/* Login.css */
+.formulario-registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    width: 50%;
+    margin: auto;
+  }
+  
+  .formulario-registro form {
+    width: 100%;
+  }
+  
+  .formulario-registro label {
+    
+    text-align: center;
+    width: 100%;
+  }
+  
+  .formulario-registro input {
+    width: 50%; /* o el ancho que prefieras */
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formulario-registro button {
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #181818;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .formulario-registro button:hover {
+    background-color: #2980b9;
+  }
+  
+  .formulario-registro .error-message {
+    color: #e74c3c;
+    margin-top: 10px;
+    animation: shake 0.5s ease-in-out;
+  }
+  

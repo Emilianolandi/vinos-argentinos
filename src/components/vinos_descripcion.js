@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './presentacion.css'; // Asegúrate de tener el archivo de estilos Vinos.css en tu proyecto
+import './presentacion.css'; 
 
 
 export default function Vinos() {
@@ -8,7 +8,7 @@ export default function Vinos() {
   
     const toggleMalbecVisibility = () => {
       setMalbecVisible(!malbecVisible);
-      // Asegúrate de ocultar la otra descripción al mostrar una
+      // ocultar la otra descripción al mostrar una
       if (cabernetVisible) {
         setCabernetVisible(false);
       }
@@ -16,7 +16,7 @@ export default function Vinos() {
   
     const toggleCabernetVisibility = () => {
       setCabernetVisible(!cabernetVisible);
-      // Asegúrate de ocultar la otra descripción al mostrar una
+      //  ocultar la otra descripción al mostrar una
       if (malbecVisible) {
         setMalbecVisible(false);
       }
@@ -39,7 +39,9 @@ export default function Vinos() {
                 <p>
                   El Malbec argentino es un vino tinto que ha alcanzado renombre internacional y se ha convertido en un emblema distintivo de la industria vinícola de Argentina. Originario de la región de Cahors en Francia, el Malbec encontró en Argentina condiciones climáticas y geográficas ideales para prosperar. La uva Malbec se adapta especialmente bien a la altitud y el clima seco de regiones como Mendoza, donde se cultiva la mayoría del Malbec argentino.
                 </p>
-                {/* ... Resto del contenido Malbec ... */}
+                <p>
+                  El Malbec argentino es un vino tinto que ha alcanzado renombre internacional y se ha convertido en un emblema distintivo de la industria vinícola de Argentina. Originario de la región de Cahors en Francia, el Malbec encontró en Argentina condiciones climáticas y geográficas ideales para prosperar. La uva Malbec se adapta especialmente bien a la altitud y el clima seco de regiones como Mendoza, donde se cultiva la mayoría del Malbec argentino.
+                </p>
               </>
             )}
           </div>
@@ -54,7 +56,7 @@ export default function Vinos() {
                 <p>
                   El Cabernet Sauvignon es otra cepa destacada que ha encontrado un hogar exitoso en los viñedos argentinos. Originario de la región de Burdeos en Francia, el Cabernet Sauvignon se ha adaptado bien al clima diverso y a las diferentes altitudes de las regiones vinícolas argentinas. Conocido por su estructura robusta y sus sabores intensos, el Cabernet Sauvignon argentino ofrece vinos tintos complejos y elegantes.
                 </p>
-                <h6>vkgfbvdsgfvsdkjfvhsdlgbrfhg</h6>
+               
               </>
             )}
           </div>

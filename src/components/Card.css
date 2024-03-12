@@ -1,9 +1,5 @@
 /* CardWrapper.css */
-#root {
- 
- background-image: url('/public/img/Fondo-4.jpg');
- background-size: cover;
-}
+
 
 .grilla {
     display: grid;

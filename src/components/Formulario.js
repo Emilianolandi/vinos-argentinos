@@ -55,7 +55,7 @@ const Formulario = () => {
 
   return (
     <>
-      <h1>REGISTRATE</h1>
+      <h1 className='form-titulo'>REGISTRATE</h1>
 
       <section className="formulario">
         <form>
@@ -142,6 +142,7 @@ const Formulario = () => {
           </button>
         </form>
       </section>
+      
     </>
   );
 };
