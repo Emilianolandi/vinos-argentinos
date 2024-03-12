@@ -2,15 +2,15 @@
 
 .grilla {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Cambiado a 3 columnas por fila */
+  grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   padding: 50px;
 }
 
 .Card {
   width: 100%;
-  max-width: 300px; /* o el ancho máximo deseado */
-  margin: 20px auto; /* Centra la card y agrega espacio entre ellas */
+  max-width: 300px;
+  margin: 20px auto;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -25,7 +25,7 @@
 
 .Card img {
   width: 100%;
-  height: auto; /* Asegura que la imagen se adapte al ancho y conserve la proporción */
+  height: auto;
   border-radius: 8px;
   margin-bottom: 15px;
   object-fit: cover;
@@ -34,11 +34,10 @@
 .Card h3 {
   margin: 0;
   font-size: 1.5rem;
-  color: #333; /* o el color deseado */
-  animation: moveLetters 2s infinite alternate; /* Animación de letras */
+  color: #333;
+  animation: moveLetters 2s infinite alternate;
 }
 
-/* Animación de letras */
 @keyframes moveLetters {
   0% {
     transform: translateY(0);
@@ -48,29 +47,35 @@
   }
 }
 
-/* Estilos adicionales para hacerlo responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .grilla {
-    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .grilla {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .Titulo-producto {
-  color: #333; /* Color negro */
+  color: #333;
   text-align: center;
-  animation: moveAndChangeColorProducto 3s infinite alternate; /* Nueva animación para 'Titulo-producto' */
+  animation: moveAndChangeColorProducto 3s infinite alternate;
 }
 
 @keyframes moveAndChangeColorProducto {
   0% {
     transform: translateY(0);
-    color: #333; /* Color negro */
+    color: #333;
   }
   50% {
     transform: translateY(-10px);
-    color: #666; /* Color gris medio */
+    color: #666;
   }
   100% {
     transform: translateY(0);
-    color: #3498db; /* Color azul */
+    color: #3498db;
   }
 }

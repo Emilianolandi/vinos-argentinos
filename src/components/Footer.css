@@ -1,24 +1,22 @@
-
-    
-    
-
 /* CSS para el pie de página */
 .pie-de-pagina {
-    border-top: 10px solid rgb(148, 136, 136);
-    background-color: #6a7d9084;
-    text-decoration: double;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-  }
-  
-
-  @media screen and (max-width: 700px){
-    .Recitales{
-        display: inline-block;
-    }
+  border-top: 10px solid rgb(148, 136, 136);
+  background-color: #6a7d9084;
+  text-decoration: double;
+  display: flex;
+  flex-direction: column; /* Cambio a columna en pantallas pequeñas */
+  align-items: center;
+  text-align: center;
+  padding: 10px;
 }
 
- 
+/* Ajustes específicos para pantallas pequeñas */
+@media screen and (max-width: 700px) {
+  .pie-de-pagina {
+    flex-direction: column; /* Cambio a columna en pantallas pequeñas */
+  }
+
+  .Recitales {
+    margin-top: 10px; /* Espaciado entre elementos en pantallas pequeñas */
+  }
+}
