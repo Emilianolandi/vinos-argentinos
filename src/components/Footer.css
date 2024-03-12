@@ -16,7 +16,5 @@
     flex-direction: column; /* Cambio a columna en pantallas pequeñas */
   }
 
-  .Recitales {
-    margin-top: 10px; /* Espaciado entre elementos en pantallas pequeñas */
-  }
+
 }
