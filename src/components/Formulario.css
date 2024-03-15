@@ -6,10 +6,10 @@
 }
 
 .formulario {
-  width: 60%; /* Ajusta el ancho del formulario al 60% */
+  width: 60%; 
   max-width: 600px;
   margin: 20px auto;
-  background: #333; /* Cambia el color de fondo a oscuro */
+  background: #333;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -58,7 +58,7 @@ label {
 .form-titulo {
   color: #27ae60; /* Cambia este valor al color que desees para el texto */
   text-align: center;
-  animation: moveAndChangeColorForm 3s infinite alternate; /* Nueva animación para 'form-titulo' */
+  animation: moveAndChangeColorForm 3s infinite alternate; 
 }
 
 @keyframes moveAndChangeColorForm {
@@ -68,7 +68,7 @@ label {
   }
   50% {
     transform: translateY(-10px);
-    color: #e67e22; /* Cambia este valor al color que desees para la animación de 'form-titulo' */
+    color: #e67e22; 
   }
   100% {
     transform: translateY(0);

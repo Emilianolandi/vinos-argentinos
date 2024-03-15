@@ -13,7 +13,7 @@ const Login = ({ onLogin, onRegister }) => {
       return;
     }
 
-    // Simular una autenticación exitosa (aquí puedes agregar tu lógica de autenticación real)
+    // Simular una autenticación exitosa 
     if (username === 'usuario' && password === 'contraseña') {
       onLogin(username, password);
     } else {
