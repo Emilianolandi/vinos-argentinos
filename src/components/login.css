@@ -1,51 +1,67 @@
 /* Login.css */
+
 .formulario-registro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* height: 100vh; */
-    width: 50%;
-    margin: auto;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
   
-  .formulario-registro form {
-    width: 100%;
-  }
-  
-  .formulario-registro label {
-    
-    text-align: center;
-    width: 100%;
-  }
-  
-  .formulario-registro input {
-    width: 50%; /* o el ancho que prefieras */
-    padding: 8px;
-    margin-top: 4px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .formulario-registro button {
-    width: 50%;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #181818;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .formulario-registro button:hover {
-    background-color: #2980b9;
-  }
-  
-  .formulario-registro .error-message {
-    color: #e74c3c;
-    margin-top: 10px;
-    animation: shake 0.5s ease-in-out;
-  }
-  
+}
+
+
+.caja-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-form {
+  background-image: url(/public/img/fvino.jpg);
+  background-size: cover;  
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.centered-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.centered-form label {
+  text-align: center;
+  width: 100%;
+}
+
+.centered-form input {
+  width: 50%; /* Ancho ajustable */
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.centered-form button {
+  width: 50%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #181818;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.centered-form button:hover {
+  background-color: #2980b9;
+}
+
+.error-message {
+  color: #e74c3c;
+  margin-top: 10px;
+  animation: shake 0.5s ease-in-out;
+}

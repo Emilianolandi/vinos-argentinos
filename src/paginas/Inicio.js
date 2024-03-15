@@ -1,10 +1,9 @@
 import React from "react";
 
 
-import Vinos from "../components/vinos_descripcion";
-import Presentacion from "../components/presentacion";
 import Login from "../components/Login";
-import ProductosDestacados from "../components/PoductosDestacados";
+
+
 
 
 
@@ -13,13 +12,8 @@ import ProductosDestacados from "../components/PoductosDestacados";
 export default function Inicio (){
     return(
        <>
+<Login/>
 
-       <Presentacion />
-       <ProductosDestacados/>
-       <Vinos/>
-       
-
-       <br></br>
        
        </>
     )

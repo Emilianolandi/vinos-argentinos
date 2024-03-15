@@ -8,18 +8,33 @@
   --negroOpaco: rgba(21, 21, 20, 0);
   --negro: #000000;
 }
+/* Definimos la animación de cambio de matices */
+@keyframes cambio-matices {
+  0% {
+    filter: hue-rotate(0deg); /* Sin cambio en el matiz */
+  }
+  50% {
+    filter: hue-rotate(180deg); /* Gira el matiz en 180 grados */
+  }
+  100% {
+    filter: hue-rotate(360deg); /* Regresa al matiz original */
+  }
+}
 
+/* Aplicamos la animación a la clase .botonera */
 .botonera {
-  background-image: url('/public/img/navegacion.jpg');
+  background-image: url(/public/img/fvino.jpg);
+  background-size: cover;
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 40px;
   background-color: var(--RosaOpaco);
   border-radius: 15px;
-  animation: cambioTextura 10s infinite alternate;
+  animation: cambio-matices 10s infinite alternate; /* Aplicamos la animación de cambio de matices */
 }
 
+/* Resto de estilos */
 .lista {
   display: flex;
   justify-content: flex-end;

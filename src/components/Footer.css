@@ -1,6 +1,5 @@
 .pie-de-pagina {
-  border-top: 10px solid rgb(148, 136, 136);
-  background-color: #6a7d9084;
+  background-color: bisque ;
   text-decoration: double;
   display: flex;
   justify-content: space-around;
@@ -9,9 +8,24 @@
   padding: 10px;
 }
 
+.logo {
+  animation: vibracion 0.1s linear infinite; /* Aplicamos la animación de vibración */
+}
 
-@media screen and (max-width: 700px){
-  .Recitales{
-      display: inline-block;
+@keyframes vibracion {
+  0% {
+      transform: rotate(-12deg); /* Rotación en sentido antihorario */
+  }
+  50% {
+      transform: rotate(2deg); /* Rotación en sentido horario */
+  }
+  100% {
+      transform: rotate(-12deg); /* Rotación en sentido antihorario */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Recitales {
+    display: inline-block;
   }
 }

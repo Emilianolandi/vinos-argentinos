@@ -11,27 +11,27 @@ export default function Footer(){
         <div className='pie-de-pagina'>
         
     
-<a href='https://www.facebook.com/NTVG.OFICIALPAGE'>
+<a href=''>
 	<img src="./img/facebook.png" alt="Logo"/>
    </a>
   
     
         <br></br>
        
-<a href ='https://www.instagram.com/notevagustaroficial/channel'>
+<a href =''>
 <img src= "./img/instagam.png" alt="logo"/>
 </a>
 
             <br></br>
             
-<a href= 'https://www.youtube.com/channel/UCe5tgyOlUWikwiYHEQ02L2Q'>
+<a href= ''>
 <img src= "./img/youtube.png" alt="logo" />
 </a>
 
 
             <br></br>
            
-<a href='https://www.notevagustar.com' >
+<a href='' >
 <img src= './img/google.png' alt="logo" />
 </a>
 

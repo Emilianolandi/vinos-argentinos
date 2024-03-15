@@ -1,5 +1,3 @@
-// CardWrapper.js
-
 import React from 'react';
 import './CardWrapper.css';
 import Tarjetas from '../Data/Tarjetas.json';
@@ -16,12 +14,12 @@ export default function CardWrapper() {
                     Tarjeta.destacado ? (
                         <CardDestacado
                             key={index}
-                            Card={Tarjeta}
+                            card={Tarjeta}
                         />
                     ) : (
                         <CardCompleto
                             key={index}
-                            Card={Tarjeta}
+                            card={Tarjeta}
                         />
                     )
                 ))}
