@@ -28,7 +28,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 30px;
   background-color: var(--RosaOpaco);
   border-radius: 15px;
   animation: cambio-matices 10s infinite alternate; /* Aplicamos la animación de cambio de matices */
