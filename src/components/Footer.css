@@ -8,21 +8,6 @@
   padding: 10px;
 }
 
-.logo {
-  animation: vibracion 0.1s linear infinite; /* Aplicamos la animación de vibración */
-}
-
-@keyframes vibracion {
-  0% {
-      transform: rotate(-12deg); /* Rotación en sentido antihorario */
-  }
-  50% {
-      transform: rotate(2deg); /* Rotación en sentido horario */
-  }
-  100% {
-      transform: rotate(-12deg); /* Rotación en sentido antihorario */
-  }
-}
 
 @media screen and (max-width: 700px) {
   .Recitales {
