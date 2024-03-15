@@ -54,7 +54,7 @@ export default function Vinos() {
           <div className={`Cabernet ${cabernetVisible ? 'visible' : ''}`}>
             <h1>Vinos Cabernet Sauvignon</h1>
             <div className='boton'>
-            <button onClick={() => showAlert('Descripción del Cabernet Sauvignon')}>
+            <button onClick={() => showAlert('  El Cabernet Sauvignon es otra cepa destacada que ha encontrado un hogar exitoso en los viñedos argentinos. Originario de la región de Burdeos en Francia, el Cabernet Sauvignon se ha adaptado bien al clima diverso y a las diferentes altitudes de las regiones vinícolas argentinas. Conocido por su estructura robusta y sus sabores intensos, el Cabernet Sauvignon argentino ofrece vinos tintos complejos y elegantes.')}>
               Mostrar Título
             </button>
             </div>
