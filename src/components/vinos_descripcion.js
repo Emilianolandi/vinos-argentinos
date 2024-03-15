@@ -34,14 +34,14 @@ export default function Vinos() {
             
             <div className='boton'>
 
-            <button onClick={() => showAlert('Descripción del Malbec')}>
+            <button onClick={() => showAlert('El Malbec argentino es un vino tinto que ha alcanzado renombre internacional y se ha convertido en un emblema distintivo de la industria vinícola de Argentina. Originario de la región de Cahors en Francia, el Malbec encontró en Argentina condiciones climáticas y geográficas ideales para prosperar. La uva Malbec se adapta especialmente bien a la altitud y el clima seco de regiones como Mendoza, donde se cultiva la mayoría del Malbec argentino.')}>
               Mostrar Título
             </button>
             </div>
             {malbecVisible && (
               <>
                 <p>
-                  El Malbec argentino es un vino tinto que ha alcanzado renombre internacional y se ha convertido en un emblema distintivo de la industria vinícola de Argentina. Originario de la región de Cahors en Francia, el Malbec encontró en Argentina condiciones climáticas y geográficas ideales para prosperar. La uva Malbec se adapta especialmente bien a la altitud y el clima seco de regiones como Mendoza, donde se cultiva la mayoría del Malbec argentino.
+                  
                 </p>
                 <p>
                   El Malbec argentino es un vino tinto que ha alcanzado renombre internacional y se ha convertido en un emblema distintivo de la industria vinícola de Argentina. Originario de la región de Cahors en Francia, el Malbec encontró en Argentina condiciones climáticas y geográficas ideales para prosperar. La uva Malbec se adapta especialmente bien a la altitud y el clima seco de regiones como Mendoza, donde se cultiva la mayoría del Malbec argentino.
